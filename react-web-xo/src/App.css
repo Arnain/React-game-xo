@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #efefef;
+  font-family: "Fredoka", sans-serif;
+}
+.text-input{
+  background-color: white;
+  border-radius: 5%;
+  width: 10rem;
+  height: 2rem;
+  text-align: center;
+  font-family: 'Handlee', cursive;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 5rem;
+  margin: 0.5rem;
+  justify-content: center;
+}
+.text{
+  font-family: 'Handlee', cursive;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+.text2{
+  font-family: 'Handlee', cursive;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+}
+.text-title{
+  font-family: 'Handlee', cursive;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+.text-input{
+  background-color: white;
+  border-radius: 5%;
+  width: 10rem;
+  height: 2rem;
+  text-align: center;
+  font-family: 'Handlee', cursive;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 5rem;
+  margin: 0.5rem;
+  justify-content: center;
+}
+.btn{
+  border-radius: 10%;
+  text-align: center;
+  font-family: 'Handlee', cursive;
+  font-weight: bold;
+  line-height: 2.5rem;
+  width: 7rem ;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgb(0, 110, 255);
+  color: white;
+  font-size:20px;
+  justify-content: center;
+}
+.btn:hover {
+  background-color: rgb(0, 119, 255);
+}
+.form-row {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.history-btn {
+  border: none;
+  border-radius: 10rem;
+  background-color: rgb(13, 196, 22);
+  color: white;
+  font-size: 2rem;
+  padding: 0.5rem 2rem;
+  margin: 2rem auto;
+  display: block;
+}
+
+.history-btn:hover {
+  background-color: rgb(167, 221, 156);
+}
+.reset-btn {
+  border: none;
+  border-radius: 10rem;
+  background-color: rgb(0, 110, 255);
+  color: white;
+  font-size: 2rem;
+  padding: 0.5rem 2rem;
+  margin: 2rem auto;
+  display: block;
+}
+.back-btn:hover {
+  background-color: rgb(110, 182, 241);
+}
+.back-btn {
+  border: none;
+  border-radius: 10rem;
+  background-color: rgb(0, 110, 255);
+  color: white;
+  font-size: 2rem;
+  padding: 0.5rem 2rem;
+  margin: 2rem;
+}
+
+.reset-btn:hover {
+  background-color: rgb(0, 119, 255);
+}
+.box-list {
+  background-color: rgb(255, 255, 255);
+  border-radius: 3%;
+  width: 20rem;
+  height: 5rem;
+  margin: 0.5rem;
+}
+.box-list:hover {
+  background-color: rgb(54, 141, 241);
+}
+.text-win{
+  font-family: 'Handlee', cursive;
+  font-weight: bold;
+  font-size: 40px;
+  padding-left: 30px ;
+  padding-top: 10px ;
+  
+}
+.text-win:hover{
+  color: rgb(255, 255, 255);
+}
